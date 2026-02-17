@@ -14,7 +14,6 @@ This story was concieved following Thomas Frank's removal from his position as h
 >
 >*Despite a strong showing in the Champions League (which Spurs qualified for by winning the Europa league under Frank’s predecessor, Ange Postecoglou), the board thought Spurs’ recent results meant “a change at this point in the season is necessary,” according to a club statement. The team currently sits at 16th in the table, just 5 points clear of the relegation zone, and haven’t won a game in 2026.*
 
-<br>
 
 ## Findings
 The most interesting thing I found was that Frank had the lowest league game win rate of any coach since the 2000/01 season.
