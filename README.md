@@ -18,8 +18,9 @@ Despite a strong showing in the Champions League (which Spurs qualified for by w
 
 ## Findings
 The most interesting thing I found was that Frank had the lowest league game win rate of any coach since the 2000/01 season.
-
-![wld-viz.png](img/wld-viz.png)
+<p align="center">
+<img src="img/wld-viz.png" width="75%" margin="auto">
+</p>
 
 ## Data Collection and Wrangling
 The data for this project came from a few sources and required extensive wrangling. Almost all of the code is contained in the notebook `data_analysis.ipynb`. I also used a scraper to quickly gather the table results for one visualization; the code for that scraper is in `pl_results_scraper.ipynb`.
