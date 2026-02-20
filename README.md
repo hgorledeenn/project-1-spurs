@@ -7,6 +7,8 @@ Columbia Journalism School, Data Studio
 
 ## The Project
 This story was concieved following Thomas Frank's removal from his position as head coach at the Tottenham Hotspur Football Club. I did original data analysis and research and published just a few days later, combining data from a multiple sources to analyze Frank's tenure in the context of other 2000s-era Spurs coaches.
+
+*See the [Data Diary](#data-diary-for-my-columns-tottenham_centriccsv) for my csv file at the bottom.*
 <br><br>
 > **<big>An excerpt from the story:</big>**
 >
@@ -79,36 +81,23 @@ I used this coaching data to create a new dataframe summarizing the coaches' sta
 
 <br>
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
+## What I learned
+### A section about what new skills, approaches, etc you used, or where you grew the most during the project
+I got some very helpful hands-on experience with data wrangling. I'd practiced some in classes, of course, but these datasets needed to be combined and then reworked significantly to fit my analysis.
 
+I also got practice making a data diary and felt this project was a good opportunity for me to experience iterative data analysis (find something interesting in the data, do some reasearch about it and have more questions, do more analysis to answer those questions, etc).
 
+## Limitations/For Next Time
+Because my data only covers games from the English Premier League, I could only analyze Frank's performance across league games. Of course, he saw the team through non-league games as well, including to their current 4th place position in the Champions League. I mentioned this gap in the story itself, and Spurs' success in the non-league competition, but did not incorporate it into my data analysis.
 
-#### LIMITATIONS
-*Only includes league games, obvs frank coaches non-league games too, and spurs are doing well in the champions league which I didn't represent in the visualizations/isn't seen in the data, but is mentioned in the text of the story.*
+I was on deadline for my class while working on this project and so didn't have time to find and work in other datasets, but, in the future, I would love to look at a more complete picture of Frank's performance by spending more time on the data acquisition and wrangling stages.
 
+## Data Diary:
 
-# project-1-spurs
+### The below data diary explains each of the columns I created in the file `tottenham_centric.csv`
 
-
-Short description of what you aimed to accomplish
-Short description of your findings
-Summary of the data collection process, with links
-Overview of the data analysis process
-A section about what new skills, approaches, etc you used, or where you grew the most during the project
-A section about things you tried to do or wanted to do but did not have the skills/time (but if you have more time you might do)
-
-
-
-
-### Data Diary for my columns:
-<b>Season</b>: Season of the game (in the format 0203, where the season spanned 2002 and 2003)
+<b>Season</b>: Season of the game (in the format "0203", where the season spanned 2002 and 2003)
 <br><b>Date</b>: Date of the game
 <br><b>OT</b>: The team Tottenham played
 <br><b>TL</b>: The location of the game, from Tottenham's perspective (H = Home, A = Away)
@@ -120,7 +109,14 @@ A section about things you tried to do or wanted to do but did not have the skil
 <br><b>HTR</b>: Half Time Result (W if Tottenham winning, L if Tottenham losing, D if tied)
 <br><b>TS</b>: Total shots by Tottenham
 <br><b>OTS</b>: Total shots by the Other Team
-<br><b>TST</b>: Tottenham shots on target
-<br><b>OTST</b>: Other Team shots on target
+<br><b>TST</b>: Total shots on target by Tottenham
+<br><b>OTST</b>: Total shots on target by the Other Team
 <br><b>FTGD</b>: Full-Time goal differential (+ if Tottenham won, - if Tottenham lost, 0 if draw)
 <br><b>HTGD</b>: Half-Time goal differential (+ if Tottenham won, - if Tottenham lost, 0 if draw)
+<br><b>coach</b>: The Spurs manager in charge for that game
+<br><b>FTGDRA</b>: A 5-game rolling average of Spurs' Full Time Goal Differential (`FTGD` column)
+<br><b>HTGDRA</b>: A 5-game rolling average of Spurs' Half Time Goal Differential (`HTGD` column)
+<br><b>TFTGRA</b>: A 5-game rolling average of Spurs' Full Time total goals (`TFTG` column)
+<br><b>OTFTGRA</b>: A 5-game rolling average of the Other Team's Full Time total goals (`OTFTG` column)
+<br><b>TSTRA</b>: A 5-game rolling average of Tottenham's total shots on target (`TST` column)
+<br><b>OTSTRA</b>: A 5-game rolling average of the Other Team's total shots on target (`OTST` column)
