@@ -18,7 +18,7 @@ This story was concieved following Thomas Frank's removal from his position as h
 
 
 ## Findings
-The most interesting thing I found was that Frank had the lowest league game win rate of any coach since the 2000/01 season.
+One of the most interesting things I found was that Frank had the lowest league game win rate of any coach since the 2000/01 season.
 <p align="center">
 <img src="img/wld-viz-small.png" width="75%" margin="auto">
 </p>
